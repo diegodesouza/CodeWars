@@ -10,4 +10,5 @@ If there is no element with index 1 in the array, return nil in Ruby, or undefin
 # => 4
 
 [].second
-# => nil```
+# => nil
+```

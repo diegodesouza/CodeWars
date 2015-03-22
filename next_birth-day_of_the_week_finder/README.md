@@ -7,4 +7,5 @@ For example, Joy's birthday is on 16th October, 1990 which falls on Friday. Afte
 ```
 next_birthday_of_the_week(Date.new(1990, 10, 16)) # 11
 next_birthday_of_the_week(Date.new(2012, 5, 20))  # 6
-next_birthday_of_the_week(Date.new(1975, 2, 22))  # 5```
+next_birthday_of_the_week(Date.new(1975, 2, 22))  # 5
+```

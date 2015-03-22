@@ -20,4 +20,5 @@ is_square (-1) # => false
 is_square   3 # => false
 is_square   4 # => true
 is_square  25 # => true
-is_square  26 # => false```
+is_square  26 # => false
+```
