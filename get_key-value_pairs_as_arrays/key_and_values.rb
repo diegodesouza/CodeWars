@@ -1,3 +1,3 @@
 def keysAndValues(data)
-  # TODO: complete
+  [data.keys,data.values]
 end
