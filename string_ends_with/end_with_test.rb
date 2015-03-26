@@ -1,0 +1,16 @@
+def check(str, ending, expected)
+  result = solution(str, ending)
+  Test.expect(result == expected, "Expected solution('#{str}', '#{ending}') to return #{expected}")
+end
+
+check("samurai", "ai", true)
+check("sumo", "omo", false)
+check("ninja", "ja", true)
+check("sensei", "i", true)
+check("samurai", "ra", false)
+check("abc", "abcd", false)
+check("abc", "abc", true)
+check("abcabc", "bc", true)
+check('ails', 'fails', false)
+check('fails', 'ails', true)
+check('this', 'fails', false)
